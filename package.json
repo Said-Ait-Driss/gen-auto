@@ -1,0 +1,40 @@
+{
+    "name": "goat",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node --experimental-json-modules --es-module-specifier-resolution=node source/index.js",
+        "lint": "eslint --ext .js source",
+        "lint:fix": "eslint --fix --ext .js source"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Said-Ait-Driss/generate-cookies.git"
+    },
+    "author": "Said Ait Driss <saidaitdrissofficial@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Said-Ait-Driss/generate-cookies/issues"
+    },
+    "homepage": "https://github.com/Said-Ait-Driss/generate-cookies#readme",
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.17.0",
+        "@babel/plugin-syntax-import-assertions": "^7.16.7",
+        "cors": "^2.8.5",
+        "eslint": "^7.27.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "^2.3.0"
+    },
+    "dependencies": {
+        "@colors/colors": "^1.5.0",
+        "cheerio": "^1.0.0-rc.6",
+        "fs-extra": "^9.1.0",
+        "header-generator": "^2.0.1",
+        "playwright": "^1.24.1",
+        "utf8": "^3.0.0"
+    }
+}
