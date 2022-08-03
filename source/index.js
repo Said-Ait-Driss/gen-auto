@@ -9,7 +9,6 @@ const loadHTML = async (html = '<div><div>') => {
     return $?.html()
 }
 
-
 const main = async () => {
     for (const website of params.websites) {
         const cookiesArr = []
@@ -29,6 +28,5 @@ const main = async () => {
         } else console.warn('request failed: '.bgRed, results.url)
     }
 }
-
 
 main()
