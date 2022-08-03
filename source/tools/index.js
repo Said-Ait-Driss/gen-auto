@@ -2,9 +2,9 @@ export default {
     requestOptions: {
         //* set up your proxy here
         // proxy: {
-        //     server: 'http://myproxy.com:3128',
-        //     username: 'usr',
-        //     password: 'pwd',
+        //     server: '', // http://myproxy.com:3128
+        //     username: '',
+        //     password: '',
         // },
         headers: {
             // 'Content-Type': 'application/json',
@@ -16,13 +16,13 @@ export default {
     },
     websites: [
         {
-            name: 'playwright',
-            url: 'https://playwright.dev/docs/emulation',
+            name: 'walmart',
+            url: 'https://www.walmart.com/browse/music/rap-hip-hop-on-cds-vinyl/4104_4117?page=53&affinityOverride=default',
         },
-        {
-            name: 'proshop',
-            url:'https://www.proshop.se/'
-        }
+        // {
+        //     name: 'proshop',
+        //     url:'https://www.proshop.se/'
+        // }
     ],
     fileOptions: {
         isNew: false, // true : create a new file and delete old one
