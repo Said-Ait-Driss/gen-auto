@@ -1,11 +1,11 @@
 export default {
     requestOptions: {
         //* set up your proxy here
-        proxy: {
-            server: 'http://gate2.proxyfuel.com', // http://myproxy.com:3128
-            username: 'lakilx.gmail.com',
-            password: 'VXDTw33aZLbMHqrp',
-        },
+        // proxy: {
+        //     server: '', // http://myproxy.com:3128
+        //     username: '',
+        //     password: '',
+        // },
         headers: {
             // 'Content-Type': 'application/json',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
