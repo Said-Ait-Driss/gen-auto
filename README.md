@@ -6,7 +6,7 @@
 
 ## configuration
  ### configure request option
-    you can cofigure request option by setting the following options below :
+    you can customizing request option by setting the following options below :
         - add your own proxy
         - add header request(userAgent ,Content-Type ,...) 
 
@@ -26,4 +26,20 @@
             accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
         },
     },
+```
+
+### crawling websites
+    - each website defined by an object contains website url, website name 
+
+```ruby
+    websites: [
+        {
+            name: 'walmart',
+            url: 'https://www.walmart.com/browse/music/rap-hip-hop-on-cds-vinyl/4104_4117?page=53&affinityOverride=default',
+        },
+        // {
+        //     name: 'proshop',
+        //     url:'https://www.proshop.se/'
+        // }
+    ],
 ```
