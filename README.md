@@ -53,5 +53,4 @@
             htmlFile: true, // true : store html into html file
             jsonFile: true, // true : store cookies in json file
     }
-
 ```
