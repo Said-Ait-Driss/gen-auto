@@ -16,13 +16,9 @@ export default {
     },
     websites: [
         {
-            name: 'walmart',
-            url: 'https://www.walmart.com/browse/music/rap-hip-hop-on-cds-vinyl/4104_4117?page=53&affinityOverride=default',
-        },
-        // {
-        //     name: 'proshop',
-        //     url:'https://www.proshop.se/'
-        // }
+            name: 'example',
+            url: 'https://www.example.com',
+        }
     ],
     fileOptions: {
         isNew: false, // true : create a new file and delete old one
