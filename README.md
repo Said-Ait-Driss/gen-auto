@@ -53,5 +53,18 @@
             htmlFile: true, // true : store html into html file
             jsonFile: true, // true : store cookies in json file
     }
+```
+
+### browser options
+    + customazing browser instance 
+        - run test on chromium ,webkit ,firefox
+        - run browser on headless mode
+        - run cross platform browser ( ther's a more than 100 device check list below )
+``` ruby
+        browserOptions: {
+        name: 'chromium', // webkit, chromium, firefox
+        headless: false,
+        deviceName: 'Desktop Edge', // BlackBerry Z30, Desktop Edge, Galaxy Note 3 ,Nexus 4
+    }
 
 ```
