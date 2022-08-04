@@ -43,3 +43,15 @@
         // }
     ],
 ```
+
+### exported files options
+    + export json ,html files
+
+```js
+    fileOptions: {
+            isNew: false, // true : create a new files and move old ones to old folders
+            htmlFile: true, // true : store html into html file
+            jsonFile: true, // true : store cookies in json file
+    }
+
+```
