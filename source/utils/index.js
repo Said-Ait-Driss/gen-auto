@@ -1,6 +1,8 @@
 export default {
     htmlDir: '/files/html/',
-    jsonDir: '/files/json/',
+    cookiesDir: '/files/cookies/',
+    localStorageDir: '/files/localStorage/',
     htmlDest: '/files/html/old/',
-    jsonDest: '/files/json/old/',
+    cookiesDest: '/files/cookies/old/',
+    localStorageDest: '/files/localStorage/old/',
 }

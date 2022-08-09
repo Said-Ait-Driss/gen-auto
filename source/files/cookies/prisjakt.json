@@ -1,0 +1,112 @@
+[
+    {
+        "name": "pj:cfexpuid",
+        "value": "6359bc5b-a864-4ab7-8413-0384fdc96d72",
+        "domain": "www.prisjakt.nu",
+        "path": "/",
+        "expires": 1665233538.949654,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "pj:session",
+        "value": "eyJpZCI6IjUyMTA0MzA3LWNhMjQtNDA5ZS1hZWY2LWQyYTg3MDBmMDE5ZSIsInZpZXdlZEV4cGVyaW1lbnRzIjp7InByb2R1Y3Qtc2l6ZS12YXJpYW50cyI6eyJ2YXJpYW50IjoiYmFzZWxpbmUifSwiZGVhbHMtY2xpY2stb3V0LWV4cGVyaW1lbnQiOnsidmFyaWFudCI6ImVuYWJsZWQifSwiaGlkZS1jYXRlZ29yaWVzLWt3bHAiOnsidmFyaWFudCI6ImJhc2VsaW5lIn19LCJfZXhwaXJlIjoxOTc1NDA5NTM4OTI3LCJfbWF4QWdlIjozMTUzNjAwMDAwMDB9",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1694609539.857875,
+        "httpOnly": true,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "pj:session.sig",
+        "value": "4FrtsvKCauYqMGQrECcUuGOKKEI",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1694609539.858127,
+        "httpOnly": true,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_ga_LB08D4LREX",
+        "value": "GS1.1.1660049540.1.0.1660049540.60",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1694609540.922006,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_ga",
+        "value": "GA1.2.1318817539.1660049541",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1694609541.438584,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_gid",
+        "value": "GA1.2.2115877390.1660049541",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1660135941,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_gat_UA-2280867-58",
+        "value": "1",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1660049601,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "__couid",
+        "value": "2fd83c25-39c7-4e6f-aed2-af82ddfa2ff2",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1685969541,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "amplitude_id_fd8381d0d0f2fd5a31929662c093e9ebprisjakt.nu",
+        "value": "eyJkZXZpY2VJZCI6ImJkNDBlZGYxLTI3NDEtNGEyZi04OTE5LTQ0NDU2NWYxNjZlYVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTY2MDA0OTU0MTMwMSwibGFzdEV2ZW50VGltZSI6MTY2MDA0OTU0MTQ0MiwiZXZlbnRJZCI6NSwiaWRlbnRpZnlJZCI6Mywic2VxdWVuY2VOdW1iZXIiOjh9",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1694609541.443545,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "__codnp",
+        "value": "",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1660135941,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_ga_44K2F60MNK",
+        "value": "GS1.1.1660049540.1.0.1660049541.59",
+        "domain": ".prisjakt.nu",
+        "path": "/",
+        "expires": 1694609542.008829,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    }
+]

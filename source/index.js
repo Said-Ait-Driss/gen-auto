@@ -17,12 +17,18 @@ const main = async () => {
         if ('html' in results) {
             const html = await loadHTML(results.html)
             if (params.fileOptions.htmlFile) saveContentIntoFile('html', website.name, 'html', html)
-            if (params.fileOptions.jsonFile) {
+            if (params.fileOptions.cookiesFile) {
                 if (results.cookies?.length > 0) {
                     results.cookies?.map((cookie) => cookiesArr.push(cookie))
-                    saveContentIntoFile('json', website.name, 'json', cookiesArr)
+                    saveContentIntoFile('cookies', website.name, 'json', cookiesArr)
                 } else {
                     console.log('no cookies found'.bgRed)
+                }
+                if (results.localStorage.length > 0) {
+                    const parsedLcStrg = JSON.parse(results.localStorage)
+                    saveContentIntoFile('localStorage', website.name, 'json', parsedLcStrg)
+                } else {
+                    console.log('no localStorage found'.bgRed)
                 }
             }
         } else console.warn('request failed: '.bgRed, results.url)
