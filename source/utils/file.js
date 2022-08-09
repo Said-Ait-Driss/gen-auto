@@ -9,16 +9,15 @@ const __dirname = path.dirname(currentDir())
 const HTMLsrc = `${path.basename(__dirname)}${dirs.htmlDir}`,
     HTMLdest = `${path.basename(__dirname)}${dirs.htmlDest}`
 
-const JSONsrc = `${path.basename(__dirname)}${dirs.jsonDir}`,
-    JSONdest = `${path.basename(__dirname)}${dirs.jsonDest}`
+const COOKIESsrc = `${path.basename(__dirname)}${dirs.cookiesDir}`,
+    COOKIESdest = `${path.basename(__dirname)}${dirs.cookiesDest}`
+
+const LOCALSTORAGEsrc = `${path.basename(__dirname)}${dirs.localStorageDir}`,
+    LOCALSTORAGEdest = `${path.basename(__dirname)}${dirs.localStorageDest}`
 
 const saveContentIntoFile = async (fileType, name, ext, content) => {
-    let src = HTMLsrc,
-        dest = HTMLdest
-    if (fileType === 'json') {
-        src = JSONsrc
-        dest = JSONdest
-    }
+    let { src, dest } = getFileType(fileType)
+
     try {
         if (params.fileOptions.isNew) {
             if (fs.existsSync(src + `${name}.${ext}`)) {
@@ -40,6 +39,26 @@ const saveContentIntoFile = async (fileType, name, ext, content) => {
         }
     } catch (err) {
         console.error(err)
+    }
+}
+
+const getFileType = (fileType) => {
+    switch (fileType) {
+        case 'cookies':
+            return {
+                src: COOKIESsrc,
+                dest: COOKIESdest,
+            }
+        case 'localStorage':
+            return {
+                src: LOCALSTORAGEsrc,
+                dest: LOCALSTORAGEdest,
+            }
+        default:
+            return {
+                src: HTMLsrc,
+                dest: HTMLdest,
+            }
     }
 }
 

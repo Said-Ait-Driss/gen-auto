@@ -16,14 +16,15 @@ export default {
     },
     websites: [
         {
-            name: 'example',
-            url: 'https://www.example.com',
+            name: 'prisjakt',
+            url: 'https://www.prisjakt.nu/produkt.php?p=3860362',
         }
     ],
     fileOptions: {
-        isNew: false, // true : create a new file and delete old one
-        htmlFile: true, // true : get html from targeted url
-        jsonFile: true, // true : store cookies in json file
+        isNew: true, // true : create a new file and delete old one
+        htmlFile: true, // true : store html from targeted url
+        cookiesFile: true, // true : store cookies in json file
+        localStorageFile: true, // true : store local Storage data into json file
     },
     browserOptions: {
         name: 'chromium', // webkit, chromium, firefox

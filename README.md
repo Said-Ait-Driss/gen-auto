@@ -2,10 +2,11 @@
 
 ## features
  - collect cookies
- - get stored data on local storage
+ - get local storage values
+ - get html
 
-## configuration
- ### configure request option
+## customizing
+ ### customizing request option
     you can customizing request option by setting the following options below :
         - add your own proxy
         - add header request(userAgent ,Content-Type ,...) 
@@ -34,32 +35,29 @@
 ```ruby
     websites: [
         {
-            name: 'walmart',
-            url: 'https://www.walmart.com/browse/music/rap-hip-hop-on-cds-vinyl/4104_4117?page=53&affinityOverride=default',
+            name: 'example',
+            url: 'https://www.example.com',
         },
-        // {
-        //     name: 'proshop',
-        //     url:'https://www.proshop.se/'
-        // }
     ],
 ```
 
 ### exported files options
-    + export json ,html files
+    + export cookies, local storage, html files
 
 ```js
     fileOptions: {
-            isNew: false, // true : create a new files and move old ones to old folders
-            htmlFile: true, // true : store html into html file
-            jsonFile: true, // true : store cookies in json file
-    }
+        isNew: true, // true : create a new file and delete old one
+        htmlFile: true, // true : store html from targeted url
+        cookiesFile: true, // true : store cookies in json file
+        localStorageFile: true, // true : store local Storage data into json file
+    },
 ```
 
 ### browser options
     + customazing browser instance 
         - run test on chromium ,webkit ,firefox
         - run browser on headless mode
-        - run cross platform browser ( ther's a more than 100 device check list below )
+        - run cross platform browser ( ther's a more than 100 device you can check https://github.com/microsoft/playwright/blob/main/packages/playwright-core/src/server/deviceDescriptorsSource.json )
 ``` ruby
         browserOptions: {
         name: 'chromium', // webkit, chromium, firefox
@@ -68,3 +66,28 @@
     }
 
 ```
+
+### list of some devices 
+   ------------------------
+   | Desktop Edge         |
+   ------------------------
+   | BlackBerry Z30       |
+   ------------------------
+   | Desktop Edge         |
+   ------------------------
+   | Nexus 4              |
+   ------------------------
+   | Desktop Chrome       |
+   ------------------------
+   | Desktop Chrome HiDPI |
+   ------------------------
+   | Desktop Edge         |
+   ------------------------
+   | Desktop Firefox      |
+   ------------------------
+   | Galaxy Note          |
+   ------------------------
+   | Galaxy S II          |
+   ------------------------
+   | Galaxy S9+           |
+   ------------------------
