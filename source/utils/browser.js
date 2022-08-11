@@ -20,6 +20,7 @@ const lunchBrInstance = async (url) => {
     const cookies = await context.cookies()
     const localStorage = await page.evaluate(() => JSON.stringify(window.localStorage))
     html = await html.innerHTML()
+    await context.close()
     await browser.close()
     return {
         html,
