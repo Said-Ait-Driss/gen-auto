@@ -2,10 +2,10 @@ export default {
     requestOptions: {
         //* set up your proxy here
         // proxy: {
-        //     hostname: '4g.iproyal.com',
-        //     server: '4g.iproyal.com:6223', // http://myproxy.com:3128
-        //     username: 'gQwmj8m',
-        //     password: 'D0fUTX8Y0S1rp0J',
+        //     hostname: '',
+        //     server: '', // http://myproxy.com:3128
+        //     username: '',
+        //     password: '',
         // },
         headers: {
             // 'Content-Type': 'application/json',
