@@ -2,9 +2,10 @@ export default {
     requestOptions: {
         //* set up your proxy here
         // proxy: {
-        //     server: '', // http://myproxy.com:3128
-        //     username: '',
-        //     password: '',
+        //     hostname: '4g.iproyal.com',
+        //     server: '4g.iproyal.com:6223', // http://myproxy.com:3128
+        //     username: 'gQwmj8m',
+        //     password: 'D0fUTX8Y0S1rp0J',
         // },
         headers: {
             // 'Content-Type': 'application/json',
@@ -16,9 +17,9 @@ export default {
     },
     websites: [
         {
-            name: 'prisjakt',
-            url: 'https://www.prisjakt.nu/produkt.php?p=3860362',
-        }
+            name: 'example',
+            url: 'https://www.example.com/',
+        },
     ],
     fileOptions: {
         isNew: true, // true : create a new file and delete old one
@@ -27,7 +28,7 @@ export default {
         localStorageFile: true, // true : store local Storage data into json file
     },
     browserOptions: {
-        name: 'chromium', // webkit, chromium, firefox
+        name: 'firefox', // webkit, chromium, firefox
         headless: false,
         deviceName: 'Desktop Edge', // BlackBerry Z30, Desktop Edge, Galaxy Note 3 ,Nexus 4
     },

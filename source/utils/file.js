@@ -28,12 +28,12 @@ const saveContentIntoFile = async (fileType, name, ext, content) => {
                 console.log('moving'.green, `${name}.${ext}`.yellow, 'file successully !'.green)
             }
             if (typeof content === 'object')
-                fs.writeFileSync(src + `${name}.${ext}`, JSON.stringify(content, null, 4), 'utf8')
+                fs.writeFileSync(src + `${name}.${ext}`, JSON.stringify(content), 'utf8')
             else fs.writeFileSync(src + `${name}.${ext}`, content, 'utf8')
             console.log('write'.green, `${name}.${ext}`.yellow, 'file successully !'.green)
         } else {
             if (typeof content === 'object')
-                fs.writeFileSync(src + `${name}.${ext}`, JSON.stringify(content, null, 4), 'utf8')
+                fs.writeFileSync(src + `${name}.${ext}`, JSON.stringify(content), 'utf8')
             else fs.writeFileSync(src + `${name}.${ext}`, content, 'utf8')
             console.log('write'.green, `${name}.${ext}`.yellow, 'file successully !'.green)
         }
