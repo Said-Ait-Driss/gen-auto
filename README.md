@@ -42,14 +42,14 @@
 ```
 
 ### exported files options
-    + export cookies, local storage, html files
+    + cookies, local storage data , html
 
 ```js
     fileOptions: {
-        isNew: true, // true : create a new file and delete old one
-        htmlFile: true, // true : store html from targeted url
-        cookiesFile: true, // true : store cookies in json file
-        localStorageFile: true, // true : store local Storage data into json file
+        isNew: true, // true : add new file and delete old one
+        htmlFile: true, // true : store html
+        cookiesFile: true, // true : collect cookies
+        localStorageFile: true, // true : collect local Storage
     },
 ```
 
