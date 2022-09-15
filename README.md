@@ -69,25 +69,26 @@
 
 ### list of some devices 
    ------------------------
-   | Desktop Edge         |
+   | Desktop Edge         
    ------------------------
-   | BlackBerry Z30       |
+   | BlackBerry Z30       
    ------------------------
-   | Desktop Edge         |
+   | Desktop Edge         
    ------------------------
-   | Nexus 4              |
+   | Nexus 4              
    ------------------------
-   | Desktop Chrome       |
+   | Desktop Chrome       
    ------------------------
-   | Desktop Chrome HiDPI |
+   | Desktop Chrome HiDPI 
    ------------------------
-   | Desktop Edge         |
+   | Desktop Edge         
    ------------------------
-   | Desktop Firefox      |
+   | Desktop Firefox      
    ------------------------
-   | Galaxy Note          |
+   | Galaxy Note           
    ------------------------
-   | Galaxy S II          |
+   | Galaxy S II          
    ------------------------
-   | Galaxy S9+           |
+   | Galaxy S9+           
    ------------------------
+   | and more ...
