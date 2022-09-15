@@ -1,4 +1,4 @@
-# Script to generate and collect stored cookies and client stuff in particular websites
+# Script to generate and collect stored cookies and client stuff from particular websites urls
 
 ## features
  - collect cookies
